@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "170482632377",
+    "firebase_url": "https://freshleadapp.firebaseio.com",
+    "project_id": "freshleadapp",
+    "storage_bucket": "freshleadapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170482632377:android:4de32f733f2ec96b",
+        "android_client_info": {
+          "package_name": "com.costan.convertlead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170482632377-4gc4jqcv8catt8ti99u1u7n4mhqsd1dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4WvPh3BGUPNkkLTnUA6UyhBtMHlkRMzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170482632377-4gc4jqcv8catt8ti99u1u7n4mhqsd1dg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170482632377-7gg3fbfc9qvl2h7sqcldkrq8envrs5ua.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobileapp.freshapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

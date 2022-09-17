@@ -1,0 +1,15 @@
+[Unit]
+Description = Queue Handler - LeadAggregator
+After = network-online.target, mysql.service
+
+[Service]
+User = www-data
+Type = simple
+WorkingDirectory=/var/www/html/lead-aggregator/backend
+ExecStart = /usr/bin/php /var/www/html/lead-aggregator/backend/artisan queue:work --tries=3
+Restart = on-failure
+RestartSec=5s
+RestartPreventExitStatus = 255
+
+[Install]
+WantedBy = multi-user.target

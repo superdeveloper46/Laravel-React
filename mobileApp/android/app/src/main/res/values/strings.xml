@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Convert Lead</string>
+    <string name="default_notification_channel_id">Convert Lead</string>
+</resources>
